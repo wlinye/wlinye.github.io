@@ -5,5 +5,5 @@ _B.Sc._ in Pure Math, The Chinese University of Hong Kong, Shenzhen, 2020-2024 (
 Exchange Undergrad, University of Rochester, 2023 Spring.
 
 * * *
-### Research Interest
-Operations Management and Game Theory.
+### Research
+My research interest lies in Operations Management and Game Theory.
