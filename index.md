@@ -6,4 +6,4 @@ Exchange Undergrad, University of Rochester, 2023 Spring.
 
 * * *
 ### Research Interest
-Operations Management, Game Theory.
+Operations Management and Game Theory.
