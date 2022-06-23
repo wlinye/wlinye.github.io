@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <style>
-p.STKaiti {font-style:STKaiti;}
+    p.STKaiti {font-style:STKaiti;}
 </style>
 
 {% seo %}
@@ -20,7 +20,7 @@ p.STKaiti {font-style:STKaiti;}
   <body>
     <div class="wrapper">
       <header>
-        <h1 ><a href="{{ "/" | absolute_url }}">{{ <p class="STKaiti"> site.title | default: site.github.repository_name  </p> }}</a></h1>
+        <h1 ><a href="{{ "/" | absolute_url }}"> <p class="STKaiti">{{  site.title | default: site.github.repository_name  }}</p> </a></h1>
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
