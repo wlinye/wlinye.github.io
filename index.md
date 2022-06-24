@@ -8,6 +8,6 @@ Exchange Undergrad, University of Rochester, 2023 Spring.
 ### Research
 My research interest lies in Operations Management and Game Theory.
 
-The Value of Blockchain Adoption in Video Platforms  
-Qiyuan Deng, **Weilin Ye** (2022).  
-_Management Science_. | [pdf](https://wlye7.github.io/assets/Blockchain.pdf)
+1. The Value of Blockchain Adoption in Video Platforms  
+   Qiyuan Deng, **Weilin Ye** (2022).  
+   _Management Science_. | [pdf](https://wlye7.github.io/assets/Blockchain.pdf)
