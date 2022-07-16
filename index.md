@@ -2,7 +2,7 @@
 ### Education
 _B.Sc._ in Pure Math, Minor in Economics, The Chinese University of Hong Kong, Shenzhen, 2020-2024 (expected).
 
-Exchange Student, University of Rochester, 2023 Spring.
+Exchange Student, University of Rochester, Spring 2023.
 
 * * *
 ### Research
