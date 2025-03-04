@@ -1,6 +1,8 @@
 * * *
 ### Education
-_B.Sc._ in Pure Math, Minor in Economics, The Chinese University of Hong Kong, Shenzhen, 2020-2024 (expected).
+PhD Student in Information Systems, University of Alberta, 2025-present
+
+BSc in Pure Math, Minor in Economics, The Chinese University of Hong Kong, Shenzhen, 2020-2024.
 
 Exchange Student, University of Rochester, Spring 2023.
 
