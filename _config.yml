@@ -6,6 +6,6 @@ google_analytics:
 theme: jekyll-theme-minimal
 navigation:
   - title: "Email"
-    url:
+    url: mailto:wye3@ualberta.ca
   - title: "Resume"
-    url:
+    url: /assets/resume.pdf
