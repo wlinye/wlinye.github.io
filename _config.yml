@@ -1,6 +1,11 @@
-title: Minimal theme
+title: Weilin Ye 叶炜霖
 logo: /assets/niagara.jpg
-description: Minimal is a theme for GitHub Pages.
+description:
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
+navigation:
+  - title: "Email"
+    url:
+  - title: "Resume"
+    url:
