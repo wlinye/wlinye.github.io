@@ -1,0 +1,235 @@
+<!--
+Use this as: _layouts/default.html
+Then create an index.md with:
+---
+layout: default
+title: Home
+---
+Your markdown content here.
+
+You can customize the left sidebar info in _config.yml like this:
+name_en: Weilin Ye
+name_cn: 叶伟琳
+school: University of Alberta
+email: your_email@example.com
+cv_link: /files/CV.pdf
+photo: /assets/img/profile.jpg
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name_en | default: site.title }}</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #222222;
+      --muted: #666666;
+      --border: #e5e5e5;
+      --link: #267cb9;
+      --sidebar-width: 290px;
+      --max-width: 1100px;
+      --cn-font: "STKaiti", "KaiTi", "Noto Serif SC", "Songti SC", serif;
+      --body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--body-font);
+      line-height: 1.65;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .page {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 40px 24px;
+      display: grid;
+      grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+      gap: 56px;
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 32px;
+      align-self: start;
+    }
+
+    .profile-photo {
+      width: 100%;
+      max-width: 220px;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 12px;
+      display: block;
+      margin-bottom: 22px;
+      border: 1px solid var(--border);
+    }
+
+    .name-en {
+      font-size: 1.9rem;
+      font-weight: 700;
+      line-height: 1.15;
+      margin: 0;
+    }
+
+    .name-cn {
+      font-size: 1.15rem;
+      margin: 8px 0 18px;
+      color: var(--muted);
+      font-family: var(--cn-font);
+    }
+
+    .meta {
+      display: grid;
+      gap: 10px;
+      font-size: 0.98rem;
+      color: var(--muted);
+    }
+
+    .meta-item {
+      word-break: break-word;
+    }
+
+    .cv-link {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 8px 14px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      color: var(--text);
+      font-weight: 500;
+      transition: background 0.15s ease;
+    }
+
+    .cv-link:hover {
+      background: #f7f7f7;
+      text-decoration: none;
+    }
+
+    .content {
+      min-width: 0;
+      font-size: 1.02rem;
+    }
+
+    .content h1,
+    .content h2,
+    .content h3 {
+      line-height: 1.25;
+      margin-top: 1.8em;
+      margin-bottom: 0.6em;
+    }
+
+    .content h1 {
+      margin-top: 0;
+      font-size: 2rem;
+    }
+
+    .content p,
+    .content ul,
+    .content ol {
+      margin-top: 0;
+      margin-bottom: 1em;
+    }
+
+    .content img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .content blockquote {
+      margin: 1.2em 0;
+      padding-left: 1em;
+      border-left: 3px solid var(--border);
+      color: var(--muted);
+    }
+
+    .content code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      background: #f6f8fa;
+      padding: 0.12em 0.35em;
+      border-radius: 6px;
+      font-size: 0.92em;
+    }
+
+    .content pre {
+      overflow-x: auto;
+      padding: 14px;
+      background: #f6f8fa;
+      border-radius: 10px;
+    }
+
+    .content pre code {
+      background: transparent;
+      padding: 0;
+    }
+
+    @media (max-width: 860px) {
+      .page {
+        grid-template-columns: 1fr;
+        gap: 28px;
+        padding: 24px 18px 40px;
+      }
+
+      .sidebar {
+        position: static;
+      }
+
+      .profile-photo {
+        max-width: 160px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <aside class="sidebar">
+      {% if site.photo %}
+        <img class="profile-photo" src="{{ site.photo | relative_url }}" alt="Profile photo of {{ site.name_en | default: site.title }}">
+      {% endif %}
+
+      <h1 class="name-en">{{ site.name_en | default: site.title }}</h1>
+
+      {% if site.name_cn %}
+        <div class="name-cn">{{ site.name_cn }}</div>
+      {% endif %}
+
+      <div class="meta">
+        {% if site.school %}
+          <div class="meta-item">{{ site.school }}</div>
+        {% endif %}
+
+        {% if site.email %}
+          <div class="meta-item">
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          </div>
+        {% endif %}
+      </div>
+
+      {% if site.cv_link %}
+        <a class="cv-link" href="{{ site.cv_link | relative_url }}" target="_blank" rel="noopener noreferrer">Curriculum Vitae</a>
+      {% endif %}
+    </aside>
+
+    <main class="content">
+      {{ content }}
+    </main>
+  </div>
+</body>
+</html>
