@@ -107,21 +107,7 @@ photo: /assets/img/profile.jpg
       word-break: break-word;
     }
 
-    .cv-link {
-      display: inline-block;
-      margin-top: 14px;
-      padding: 8px 14px;
-      border: 1px solid var(--border);
-      border-radius: 999px;
-      color: var(--text);
-      font-weight: 500;
-      transition: background 0.15s ease;
-    }
-
-    .cv-link:hover {
-      background: #f7f7f7;
-      text-decoration: none;
-    }
+    
 
     .content {
       min-width: 0;
@@ -223,7 +209,9 @@ photo: /assets/img/profile.jpg
       </div>
 
       {% if site.cv_link %}
-        <a class="cv-link" href="{{ site.cv_link | relative_url }}" target="_blank" rel="noopener noreferrer">Curriculum Vitae</a>
+        <div class="meta-item">
+          <a href="{{ site.cv_link | relative_url }}" target="_blank" rel="noopener noreferrer">CV</a>
+        </div>
       {% endif %}
     </aside>
 
