@@ -5,6 +5,6 @@ PhD Student in Information Systems, Alberta School of Business, University of Al
 BS in Mathematics, Minor in Economics, The Chinese University of Hong Kong, Shenzhen, 2020-2024
 
 ### Research Interests
-**Topics**: Innovative Technologies (AI, Blockchains), The Economy of Information Systems
+Topics: Innovative Technologies (AI, Blockchains), The Economy of Information Systems
 
-**Methodology**: Analytical Modeling
+Methodology: Analytical Modeling
