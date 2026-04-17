@@ -6,4 +6,5 @@ BS in Mathematics, Minor in Economics, The Chinese University of Hong Kong, Shen
 
 ### Research Interests
 **Topics**: Innovative Technologies (AI, Blockchains)
+
 **Methodology**: Analytical Modeling
