@@ -11,6 +11,7 @@ PhD Student in Information Systems, Alberta School of Business
   <span>2020–2024</span>
 </div>
 BS in Mathematics, Minor in Economics
+
 ### Research Interests
 Topics: Innovative Technologies (AI, Blockchains), The Economy of Information Systems
 
