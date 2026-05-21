@@ -1,9 +1,16 @@
 ### Education
 
-PhD Student in Information Systems, Alberta School of Business, University of Alberta, from 2025
+<div style="display: flex; justify-content: space-between;">
+  <strong>University of Alberta</strong>
+  <span>2025–present</span>
+</div>
+PhD Student in Information Systems, Alberta School of Business
 
-BS in Mathematics, Minor in Economics, The Chinese University of Hong Kong, Shenzhen, 2020-2024
-
+<div style="display: flex; justify-content: space-between;">
+  <strong>The Chinese University of Hong Kong, Shenzhen</strong>
+  <span>2020–2024</span>
+</div>
+BS in Mathematics, Minor in Economics
 ### Research Interests
 Topics: Innovative Technologies (AI, Blockchains), The Economy of Information Systems
 
