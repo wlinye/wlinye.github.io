@@ -1,13 +1,13 @@
 ### Education
 
 <div style="display: flex; justify-content: space-between;">
-  <strong>University of Alberta</strong>
+  <span>University of Alberta</span>
   <span>2025–present</span>
 </div>
 PhD Student in Information Systems, Alberta School of Business
 
 <div style="display: flex; justify-content: space-between;">
-  <strong>The Chinese University of Hong Kong, Shenzhen</strong>
+  <span>The Chinese University of Hong Kong, Shenzhen</span>
   <span>2020–2024</span>
 </div>
 BS in Mathematics, Minor in Economics
