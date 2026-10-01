@@ -13,6 +13,4 @@ PhD Student in Information Systems, Alberta School of Business
 BS in Mathematics, Minor in Economics
 
 ### Research Interests
-Topics: Innovative Technologies (AI, Blockchains), The Economics of Information Systems
-
-Methodology: Analytical Modeling
+My research studies how artificial intelligence and algorithmic decision-making reshape firm strategy, market competition, and economic organization. I am particularly interested in AI markets, data sharing, learning in strategic environments, and generative AI. My work primarily uses analytical and game-theoretic modeling.
